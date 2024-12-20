@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ambulance Booking System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <section id="title">
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <a class="navbar-brand">Ambulance Booking</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link">Login</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  </section>
+    <main>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+        <br>
+        <label for="pickup">Pickup Location:</label>
+        <input type="text" id="pickup" name="pickup" required>
+        <br>
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required>
+        <br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        <br>
+        <input type="submit" value="Book Ambulance">
+      </form>
+      <!DOCTYPE html>
+
+<head>
+	<title>Ambulance Booking System</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#login">Login</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="home">
+		<h1>Home Page</h1>
+		<p>Welcome to the Ambulance Booking System. Please login or create an account to continue.</p>
+	</section>
+
+	<section id="login">
+		<h1>Login Page</h1>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username">
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password">
+			<input type="submit" value="Login">
+		</form>
+	</section>
+
+	<section id="about">
+		<h1>About</h1>
+		<p>The Ambulance Booking System is a platform for users to book ambulances quickly and easily. Our mission is to make emergency medical transportation accessible to everyone.</p>
+	</section>
+
+	<section id="contact">
+		<h1>Contact</h1>
+		<ul>
+			<li>Hospital A - 123 Main St, Anytown USA</li>
+			<li>Hospital B - 456 Maple Ave, Anytown USA</li>
+			<li>Hospital C - 789 Oak St, Anytown USA</li>
+		</ul>
+	</section>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBXXS23zUq1uoNss09OVeSaBVtZjJR8mUbFQ&usqp=CAU" alt="Ambulance">
+    </main>
+    <footer>
+      <p>&copy; 2023 Ambulance Booking System. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
